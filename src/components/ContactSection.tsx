@@ -1,10 +1,7 @@
-
 import { Phone, Mail, MessageSquare } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import React from "react";
-
-const ContactSection = () => (
-  <section id="contact" className="w-full py-16 bg-white fade-in">
+const ContactSection = () => <section id="contact" className="w-full py-16 bg-white fade-in">
     <div className="max-w-5xl mx-auto px-4">
       <Card className="rounded-2xl shadow-lg px-6 pt-6 pb-8">
         <CardHeader>
@@ -19,7 +16,7 @@ const ContactSection = () => (
             </div>
             <div className="flex items-center gap-3">
               <Phone className="text-vivid-purple" size={20} />
-              <span className="text-gray-800">(383) 44 429 395</span>
+              <span className="text-gray-800">+ 383 44 429 395</span>
             </div>
             <div className="flex items-center gap-3">
               <Mail className="text-vivid-purple" size={20} />
@@ -29,7 +26,5 @@ const ContactSection = () => (
         </CardContent>
       </Card>
     </div>
-  </section>
-);
-
+  </section>;
 export default ContactSection;
