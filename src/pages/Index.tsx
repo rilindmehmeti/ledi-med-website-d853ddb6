@@ -1,4 +1,3 @@
-
 import React from "react";
 import HeroSection from "@/components/HeroSection";
 import AboutUsSection from "@/components/AboutUsSection";
@@ -13,7 +12,7 @@ const Index = () => {
       <ProductsSection />
       <ContactSection />
       <footer className="bg-background text-gray-500 text-center py-8 text-sm border-t mt-8">
-        &copy; {new Date().getFullYear()} Oasis Medical Supply. All rights reserved.
+        &copy; {new Date().getFullYear()} Ledi Med. All rights reserved.
       </footer>
     </div>
   );
