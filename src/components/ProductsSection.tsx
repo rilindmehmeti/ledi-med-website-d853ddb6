@@ -1,23 +1,23 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { package as PackageIcon, shoppingCart, activity } from "lucide-react";
+import { Package, ShoppingCart, Activity } from "lucide-react";
 import React from "react";
 
 const PRODUCTS = [
   {
     name: "Digital Thermometers",
     description: "Accurate, fast, and easy-to-use. Essential for clinics and home care.",
-    icon: activity,
+    icon: Activity,
   },
   {
     name: "Mobility Aids",
     description: "Sturdy walkers, wheelchairs, and canes for improved independence.",
-    icon: PackageIcon,
+    icon: Package,
   },
   {
     name: "First Aid Kits",
     description: "Comprehensive kits for emergencies—safety for families, schools, and offices.",
-    icon: shoppingCart,
+    icon: ShoppingCart,
   },
 ];
 
