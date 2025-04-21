@@ -2,7 +2,7 @@
 import React from "react";
 
 const HeroSection = () => (
-  <section className="relative py-20 bg-white flex items-center justify-center min-h-[60vh]">
+  <section className="relative py-20 bg-gradient-to-br from-soft-blue via-white to-soft-gray flex items-center justify-center min-h-[60vh]">
     <img 
       src="/lovable-uploads/28b69a0a-cf1e-4b53-8f67-6bbef8346284.png" 
       alt="Ledi Med Logo" 
