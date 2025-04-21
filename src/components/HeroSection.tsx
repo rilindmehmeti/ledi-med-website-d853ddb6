@@ -8,7 +8,7 @@ const HeroSection = () => (
     <div className="max-w-2xl mx-auto text-center z-10 fade-in">
       <div className="flex items-center justify-center gap-3 mb-6">
         <span className="bg-primary/10 p-3 rounded-full shadow hover-scale">
-          <Activity color="#8B5CF6" size={32} />
+          <Activity color="#5CA65C" size={32} />
         </span>
       </div>
       <h1 className="text-5xl font-playfair font-extrabold text-gray-900 mb-6 leading-tight">
@@ -27,3 +27,4 @@ const HeroSection = () => (
 );
 
 export default HeroSection;
+

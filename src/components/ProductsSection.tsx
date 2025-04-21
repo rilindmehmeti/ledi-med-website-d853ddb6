@@ -30,7 +30,7 @@ const ProductsSection = () => (
           <Card key={p.name} className="bg-white rounded-2xl shadow-md hover:shadow-xl transition animate-scale-in flex flex-col items-center">
             <CardHeader className="flex flex-col items-center justify-center">
               <div className="mb-2 bg-soft-purple/30 rounded-full p-3">
-                <p.icon size={36} color="#7E69AB" />
+                <p.icon size={36} color="#4C7B4C" />
               </div>
               <CardTitle className="font-bold text-lg text-center">{p.name}</CardTitle>
             </CardHeader>
@@ -45,3 +45,4 @@ const ProductsSection = () => (
 );
 
 export default ProductsSection;
+
