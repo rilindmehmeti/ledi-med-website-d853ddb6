@@ -9,9 +9,7 @@ const HeroSection = () => <section className="relative py-20 bg-gradient-to-br f
         </span>
       </div>
       <h1 className="text-5xl font-playfair font-extrabold text-gray-900 mb-6 leading-tight">Let's shape the future of imaging together</h1>
-      <p className="text-xl text-gray-600 mb-8 font-light">
-        Supplying essential medical equipment and care solutions for every need. Expertise, quality, and care—delivered to your door.
-      </p>
+      <p className="text-xl text-gray-600 mb-8 font-light">Let's shape the future of imaging together</p>
       <Button className="px-8 py-3 text-lg rounded-full bg-primary text-white shadow-lg hover:bg-vivid-purple transition animate-scale-in">
         Browse Products
       </Button>
