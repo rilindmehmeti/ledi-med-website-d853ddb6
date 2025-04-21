@@ -8,7 +8,7 @@ import { Textarea } from "@/components/ui/textarea";
 
 const ContactSection = () => (
   <section id="contact" className="w-full py-16 bg-white fade-in">
-    <div className="max-w-3xl mx-auto px-4">
+    <div className="max-w-5xl mx-auto px-4">
       <Card className="rounded-2xl shadow-lg px-6 pt-6 pb-8">
         <CardHeader>
           <CardTitle className="font-playfair text-2xl mb-2">Contact Us</CardTitle>
@@ -47,4 +47,3 @@ const ContactSection = () => (
 );
 
 export default ContactSection;
-
