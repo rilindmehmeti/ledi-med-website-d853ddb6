@@ -16,7 +16,7 @@ const ContactSection = () => <section id="contact" className="w-full py-16 bg-wh
             </div>
             <div className="flex items-center gap-3">
               <Phone className="text-vivid-purple" size={20} />
-              <span className="text-gray-800">(383) 44 429 395</span>
+              <span className="text-gray-800">+383 44 429 395</span>
             </div>
             <div className="flex items-center gap-3">
               <Mail className="text-vivid-purple" size={20} />
