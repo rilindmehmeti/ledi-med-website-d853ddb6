@@ -1,10 +1,7 @@
-
 import React from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Phone, Mail, MapPin } from "lucide-react";
-
-const ContactSection = () => (
-  <section id="contact" className="w-full py-16 bg-white fade-in">
+const ContactSection = () => <section id="contact" className="w-full py-16 bg-white fade-in">
     <div className="max-w-5xl mx-auto px-4">
       <Card className="rounded-2xl shadow-lg px-6 pt-6 pb-8">
         <CardHeader>
@@ -15,7 +12,7 @@ const ContactSection = () => (
           <div className="space-y-8 my-6">
             <div className="flex items-center gap-3">
               <MapPin className="text-vivid-purple" size={20} />
-              <span className="text-gray-800">Str.28 Nentori, SU1/5, Prishtine 10000, Republika e Kosoves</span>
+              <span className="text-gray-800">Str. Ibrahim Rugova, n.n., Konjuh, 14000 Lipjan, Kosova</span>
             </div>
             <div className="flex items-center gap-3">
               <Phone className="text-vivid-purple" size={20} />
@@ -29,7 +26,5 @@ const ContactSection = () => (
         </CardContent>
       </Card>
     </div>
-  </section>
-);
-
+  </section>;
 export default ContactSection;
